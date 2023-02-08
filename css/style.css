@@ -39,8 +39,10 @@ img{
 }
 
 /* MAIN */
-.contenuto{
+.contenitore{
     width: 80%;
+    max-width: 1200px;
+    min-width: 900px;
     margin: 0 auto;
 }
 .riga{
@@ -91,4 +93,14 @@ img{
 }
 .etichetta-eco-sostenibile{
     background-color: green;
+}
+/*Hover*/
+.foto-con-mouse{
+    display: none;
+}
+.carta:hover .foto-normale{
+    display: none;
+}
+.carta:hover .foto-con-mouse{
+    display: block;
 }
