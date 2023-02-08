@@ -1,0 +1,94 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* UTILITY */
+.flex{
+    display: flex;
+}
+
+/*COMMON*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+
+/*Testi*/
+.marche{
+    color: gray;
+    font-size: 0.7rem;
+}
+.modello{
+    color: black;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.prezzo{
+    padding-top: 0;
+    font-size: 0.8rem;
+    color: red;
+}
+.prezzo-barrato{
+    color: lightslategray;
+    text-decoration: line-through;
+}
+
+/* MAIN */
+.contenuto{
+    width: 80%;
+    margin: 0 auto;
+}
+.riga{
+    padding-top: 4em;
+    width: 100%;
+}
+
+/*Colonna*/
+.colonna{
+    margin-bottom: 20px;
+    width: calc((100% / 3) - (40px / 3));
+}
+
+.colonna-centrale{
+    margin-right:20px;
+    margin-left: 20px;
+}
+/*Carta*/
+.carta{
+    position: relative;
+}
+/* Etichette */
+.etichette{
+    position: absolute;
+    top: 80%;
+    left: 0;
+    display: flex;
+
+    font-size: 1rem;
+
+}
+.etichetta-cuore{
+    background-color: white;
+    padding: 0.5em 0.8em;
+    position:absolute;
+    top: 2% ;
+    right: 0;
+}
+.etichetta{
+    color: white;
+    text-align:center;
+    padding: 0.2em;
+
+}
+.etichetta-sconti{
+    background-color: red;  
+    margin-right: 0.2em;
+}
+.etichetta-eco-sostenibile{
+    background-color: green;
+}
